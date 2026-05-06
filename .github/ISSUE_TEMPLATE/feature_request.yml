@@ -1,22 +1,22 @@
-﻿name: 功能建议
-description: 提出新功能、格式支持、模型适配或体验优化建议
+name: 功能建议 / Feature Request
+description: 提出新功能、格式支持、模型适配或体验优化建议 / Suggest a feature, format support, model integration, or UX improvement
 title: "[Feature] "
 labels: ["enhancement"]
 body:
   - type: textarea
     id: scenario
     attributes:
-      label: 使用场景
-      placeholder: 你希望 LinkGo 在什么场景下帮你完成什么？
+      label: 使用场景 / Use Case
+      placeholder: 你希望 LinkGo 在什么场景下帮你完成什么？What workflow do you want LinkGo to support?
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: 希望如何改进
+      label: 希望如何改进 / Proposed Improvement
     validations:
       required: true
   - type: textarea
     id: examples
     attributes:
-      label: 示例或参考
+      label: 示例或参考 / Examples or References
