@@ -1,0 +1,22 @@
+﻿name: 功能建议
+description: 提出新功能、格式支持、模型适配或体验优化建议
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      placeholder: 你希望 LinkGo 在什么场景下帮你完成什么？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 希望如何改进
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: 示例或参考

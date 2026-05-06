@@ -1,0 +1,38 @@
+﻿name: Bug 反馈
+description: 报告使用中的异常、失败或结果不符合预期
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开...
+        2. 上传...
+        3. 输入...
+        4. 看到...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: 运行环境
+      placeholder: Windows / Linux / WSL / 其它
+  - type: textarea
+    id: logs
+    attributes:
+      label: 脱敏日志或截图
+      description: 请移除 API Key、Token、Cookie、客户文件内容等敏感信息。
